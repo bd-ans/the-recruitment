@@ -103,6 +103,24 @@ body {
   color: #42D6F4;
 }
 
+.answer-btn {
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #42D6F4;
+  font-size: 17px;
+  padding: 14px 25px;
+  width: auto;
+  font-weight: 700;
+  border-radius: 30px;
+  color: #42D6F4;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background-color: #42D6F4;
+  color: #fff;
+}
+
 @media (max-width: 1200px) {
   .main-top-title {
     font-size: 20px;
