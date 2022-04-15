@@ -67,7 +67,7 @@ body {
   line-height: 1.6;
 }
 
-.main__vs-input{
+.main__vs-input {
   width: 21px !important;
   height: 21px !important;
   margin-left: 9px;
@@ -92,7 +92,6 @@ body {
   color: #ffffff;
 }
 
-
 @media (max-width: 1200px) {
   .main-top-title {
     font-size: 20px;
@@ -113,4 +112,37 @@ body {
     margin-top: 20px;
     text-align: center !important;
   }
+
+  .main-top-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  .main__vs {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  
+  .main__vs-input {
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: none;
+    font-size: 0.7em;
+    text-align: center;
+    line-height: 1em;
+    background-color: #42D6F4;
+    display: flex;
+    padding-left: 3px;
+    padding-top: 3px;
+  }
+  
 }
