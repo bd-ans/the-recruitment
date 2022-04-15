@@ -117,9 +117,9 @@ body {
   }
 
   .main-top-title {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1;
     margin-top: 20px;
     text-align: center !important;
   }
