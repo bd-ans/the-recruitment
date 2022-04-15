@@ -60,3 +60,25 @@ body {
   font-weight: 600;
   line-height: 1.6;
 }
+
+@media (max-width: 1200px) {
+  .main-top-title {
+    font-size: 20px;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-top-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 20px;
+    text-align: center !important;
+  }
+}
