@@ -61,6 +61,37 @@ body {
   line-height: 1.6;
 }
 
+.main__vs {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.main__vs-input{
+  width: 21px !important;
+  height: 21px !important;
+  margin-left: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: none;
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 1em;
+  background-color: #42D6F4;
+  display: flex;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+.main__vs-input:checked:after {
+  content: '✔';
+  color: #ffffff;
+}
+
 
 @media (max-width: 1200px) {
   .main-top-title {
