@@ -26,7 +26,7 @@ anwerBtn.addEventListener("click", function (e) {
     return
   }
 
-  if ((job && team && salary && !holiday) || (job && salary &&!holiday)) {
+  if ((job && team && salary && !holiday) || (job && salary && team &&!holiday)) {
     okOut.classList.remove("d-none");
     okOut.classList.add("d-block");
     FailOut.classList.remove("d-block");
