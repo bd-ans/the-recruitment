@@ -54,3 +54,9 @@ body {
   font-size: 24px;
   line-height: 1.5;
 }
+
+.main-top-title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.6;
+}
