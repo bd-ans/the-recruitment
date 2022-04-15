@@ -103,7 +103,7 @@ body {
   color: #42D6F4;
 }
 
-.answer-btn {
+.answer__btn {
   outline: none;
   background-color: #fff;
   border: 1px solid #42D6F4;
@@ -116,7 +116,7 @@ body {
   cursor: pointer;
 }
 
-.answer-btn:hover {
+.answer__btn:hover {
   background-color: #42D6F4;
   color: #fff;
   transition: .2s ease;
