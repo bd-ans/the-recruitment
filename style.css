@@ -92,6 +92,17 @@ body {
   color: #ffffff;
 }
 
+.output__ignore-title,
+.output-ok-title {
+  font-size: 25px;
+  font-weight: 800;
+  color: #FD336D;
+}
+
+.output-ok-title {
+  color: #42D6F4;
+}
+
 @media (max-width: 1200px) {
   .main-top-title {
     font-size: 20px;
