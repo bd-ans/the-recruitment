@@ -119,6 +119,7 @@ body {
 .answer-btn:hover {
   background-color: #42D6F4;
   color: #fff;
+  transition: .2s ease;
 }
 
 @media (max-width: 1200px) {
