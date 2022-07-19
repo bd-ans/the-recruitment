@@ -17,7 +17,7 @@ answerBtn.addEventListener("click", function (e) {
   let salary = salaryInput.checked;
   let team = teamInput.checked;
   let holiday = holidayInput.checked;
- 
+
   if (!job && !salary && !team && !holiday) {
     okOut.classList.remove("d-block");
     okOut.classList.add("d-none");
