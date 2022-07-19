@@ -25,7 +25,7 @@ answerBtn.addEventListener("click", function (e) {
     failOut.classList.add("d-none");
     return
   }
-
+ 
   if ((job && team && salary && !holiday) || (job && salary && team &&!holiday)) {
     okOut.classList.remove("d-none");
     okOut.classList.add("d-block");
